@@ -23,7 +23,7 @@ export function Contact() {
         </p>
       </Reveal>
 
-      <a href={`mailto:${LINKS.email}`} className="contact-title-link" data-hover>
+      <div className="contact-title-link">
         <div className="contact-title">
           {LETTERS.map((l, i) =>
             l.gap ? (
@@ -36,20 +36,37 @@ export function Contact() {
           )}
         </div>
         <Reveal type="fade" delay={550} style={{ textAlign: 'center' }}>
-          <span className="contact-email-pill">
+          <a
+            className="contact-email-pill"
+            href={LINKS.emailHref}
+            aria-label={`Email ${LINKS.email}`}
+            data-hover
+          >
             <span className="dot" />
             {LINKS.email}
             <span>↗</span>
-          </span>
+          </a>
         </Reveal>
-      </a>
+      </div>
 
       <Reveal type="fade" delay={650}>
         <div className="contact-socials">
-          <a className="social-pill" href={LINKS.github} target="_blank" rel="noreferrer">
+          <a
+            className="social-pill"
+            href={LINKS.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Sudhanshu Shekhar on GitHub"
+          >
             GITHUB <span>↗</span>
           </a>
-          <a className="social-pill" href={LINKS.linkedin} target="_blank" rel="noreferrer">
+          <a
+            className="social-pill"
+            href={LINKS.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Sudhanshu Shekhar on LinkedIn"
+          >
             LINKEDIN <span>↗</span>
           </a>
         </div>

@@ -1,7 +1,8 @@
 export const LINKS = {
   email: 'sudhanshuvshekhar@gmail.com',
+  emailHref: 'mailto:sudhanshuvshekhar@gmail.com?subject=Portfolio%20enquiry',
   github: 'https://github.com/0xaeres',
-  linkedin: 'https://linkedin.com/in/sudhanshu-shekhar-770678198',
+  linkedin: 'https://www.linkedin.com/in/sudhanshu-shekhar-770678198/',
   location: 'Bengaluru, India',
 }
 
@@ -140,7 +141,7 @@ export const PROJECTS: Project[] = [
     period: 'FEB 2026 — PRESENT',
     desc: 'An open-source MCP-native context engine that indexes repositories, docs, and product artifacts to feed AI agents source-grounded context. AST-aware parsing, hybrid vector/graph retrieval, cross-encoder reranking, human-in-the-loop review, and retrieval eval gates.',
     stack: ['MCP', 'FASTAPI', 'QDRANT', 'LANGGRAPH', 'GRAPHRAG'],
-    href: 'https://github.com/0xaeres',
+    href: 'https://github.com/0xaeres/anvay-core',
     flip: false,
   },
   {
@@ -151,7 +152,7 @@ export const PROJECTS: Project[] = [
     period: 'JAN 2026 — MAR 2026',
     desc: 'A privacy-preserving RFQ gateway for block trades. Noir zk-SNARK proofs verify price and limit conditions without revealing private routing data or counterparty intent.',
     stack: ['NOIR', 'ZK-SNARKS', 'RUST', 'NESTJS', 'SOLIDITY'],
-    href: 'https://github.com/0xaeres',
+    href: 'https://github.com/0xaeres/zk-rfq',
     flip: true,
   },
   {
@@ -162,7 +163,7 @@ export const PROJECTS: Project[] = [
     period: 'DEC 2024 — APR 2025',
     desc: 'An Ethereum protocol for automated portfolio rebalancing, yield harvesting, and risk-controlled drift management — non-custodial and fully on-chain.',
     stack: ['SOLIDITY', 'HARDHAT', 'ETHERS.JS', 'OPENZEPPELIN'],
-    href: 'https://github.com/0xaeres',
+    href: 'https://github.com/0xaeres/sma',
     flip: false,
   },
   {
@@ -173,7 +174,7 @@ export const PROJECTS: Project[] = [
     period: 'STEALTH ADDRESSES',
     desc: 'A confidential payment protocol enabling users to receive funds without disclosing their wallet address — powered by Circom circuits and stealth addresses.',
     stack: ['CIRCOM', 'STEALTH ADDRESSES', 'PAYMENTS'],
-    href: 'https://github.com/0xaeres',
+    href: 'https://github.com/0xaeres/Masked-Melon',
     flip: true,
   },
 ]

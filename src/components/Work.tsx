@@ -30,7 +30,7 @@ export function Work() {
                   data-hover
                   href={p.href}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label={`${p.name} on GitHub`}
                 >
                   <div className="grid-overlay" />
